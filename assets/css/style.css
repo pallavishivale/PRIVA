@@ -1924,3 +1924,49 @@ section {
   color: #fff;
   text-decoration: none;
 }
+/*--Career_Form--*/
+.bgimg{
+  background-image: url(/PRIVA-main/priva-technologies-main/assets/img/bgCareerImg.webp);
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+.HT{
+  color: aliceblue;
+}
+.SUBMIT[type=submit]{
+  margin-top: 30px;
+  width: 30%;
+  max-width: 200%;
+  color:white; background-color: #04AA6D;
+  border: 1px solid black;
+  cursor: pointer;
+  padding: 10px 12px;
+  text-decoration: none;
+  margin: 2px 1px;
+}
+.SUBMIT[type=submit]:hover{
+    border: 3px solid rgb(32, 236, 23);
+    background-color: black;
+    color: white;
+  }
+sup{
+color: red;
+}
+table{
+  box-shadow: 7px 7px 7px 10px rgb(156, 159, 159);
+  border-radius: 10px;
+}
+.CF{
+  text-align: center;
+  background-color: aliceblue;
+}
+.hover{
+  background-color: #04AA6D;
+}
+.center{
+  margin-left: auto;
+  margin-right: auto;
+  width: 20%;
+  display: block;
+}
