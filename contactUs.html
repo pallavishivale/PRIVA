@@ -64,39 +64,25 @@
   </header><!-- End Header -->
 
   <section>
-    <div class='bgimg'>
-        <!--<img src="C:\Users\parth\OneDrive\Desktop\priva-technologies-main\careers-image.jpg" class="center">-->
-     <h1 align="center" class="HT">Careers Form</h1>
-     <table  align="center" height="500" width="620">
-        <tr>
-            <td>
-    <form class="CareerForm">
-    <h5><lable class="careers_label">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Name: &#128100;<sup>*</sup></lable>
-    <input type="text" name="" placeholder=" enter username"></h5>
-    <br>
-    
-    <h5><label class="careers_label">Contact info: &#128222;<sup>*</sup></label>
-    <input type="number" name="" placeholder=" enter mobile no."></h5>
-    <br>
-    
-    <h5><lable class="careers_label">&nbsp;&nbsp;&nbsp;&nbsp;Email-id:&#128232<sup>*</sup></lable>
-    <input type="text" name="" placeholder=" enter email-id"></h5>
-    <br>
-    
-    <h5><label class="careers_label">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Role:<sup>*</sup></label>
-    <input type="text" name="" placeholder=" designation"></h5>
-    <br>
-    <h5><label class="careers_label">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Upload CV:&#128196;<sup>*</sup></label>
-    <input type= "file" name=""></h5>
-    <br>
-    <!--<input type="SUBMIT" class="a.hover">-->
-    <input type="submit" value="Submit" class="SUBMIT">
-    <br>
-    </form>
-            </td>
-        </tr>
-     </table>
-    </div>
+    <div class = 'first'>
+      <form class="contact_form">
+         <h1 class="contact_heading">Contact Us</h1> 
+
+          <label  for="name" class="contact_label">Name:</label>
+          <input class= "Contact_input"type="text" id="name" placeholder="your name">
+
+          <label for="Email id" class="contact_label">Email id:</label>
+          <input class= "Contact_input"type="text" id="email" placeholder="your Email">
+         
+          <label for ="message" class="contact_label">Message:</label>
+          <textarea class="contact_text"id="message" placeholder="your message" row="6" ></textarea>
+      
+          <div class="contact_center">
+              <input class="Contact_input"type="submit" value="Submit">
+              <p id="success"></p>
+          </div>
+      </form>
+  </div>
   </section>
 
 
