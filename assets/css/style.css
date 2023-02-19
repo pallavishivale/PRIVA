@@ -1924,9 +1924,9 @@ section {
   color: #fff;
   text-decoration: none;
 }
-/*--Career_Form--*/
+                                         /*-------Career_Form----------*/
 .bgimg{
-  background-image: url(/PRIVA-main/priva-technologies-main/assets/img/bgCareerImg.webp);
+  background-image: url(./PRIVA-main/priva-technologies-main/assets/img/bgCareerImg.webp);
   background-size: cover;
   background-attachment: fixed;
   background-repeat: no-repeat;
@@ -1934,10 +1934,14 @@ section {
 .HT{
   color: aliceblue;
 }
+.careers_label {
+  color: white;                                                                        
+  margin: 20px 0;
+}
 .SUBMIT[type=submit]{
-  margin-top: 30px;
-  width: 30%;
-  max-width: 200%;
+  margin-top: 20px;
+  width: 20%;
+  max-width: 100%;
   color:white; background-color: #04AA6D;
   border: 1px solid black;
   cursor: pointer;
@@ -1954,12 +1958,15 @@ sup{
 color: red;
 }
 table{
-  box-shadow: 7px 7px 7px 10px rgb(156, 159, 159);
-  border-radius: 10px;
+  box-shadow: 6px 6px 6px 8px rgb(211, 220, 220);
+  border-radius: 8px;
 }
-.CF{
+.CareerForm{
   text-align: center;
-  background-color: aliceblue;
+  background-color: rgb(1, 8, 15);
+  max-width: 620px;
+  width: 100%;
+  height: 90%;
 }
 .hover{
   background-color: #04AA6D;
@@ -1969,4 +1976,64 @@ table{
   margin-right: auto;
   width: 20%;
   display: block;
+}
+                                /*---------------Contact_Us Form--------------*/
+* {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.first {
+ background-image: url("https://www.sierraclub.org/sites/www.sierraclub.org/files/sierra/articles/big/electric%20car%20charging.jpg");
+ opacity: 100%;
+ margin: 0;                                                                              
+}
+
+.contact_form {
+  max-width: 500px;
+  width: 80%;
+  background: rgb(239, 239, 239);   
+  box-shadow: 7px 7px 10px 10px rgb(246, 201, 201);        
+  margin: 17vh auto 0 auto;
+  padding: 30px;
+  border-radius: 2px;
+  box-sizing: border-box;
+}
+
+.contact_heading{
+ margin: 0%;
+ text-align: center;
+ color:rgb(12, 12, 12); 
+ 
+}
+
+.contact_label {
+  display: block;                                                                         
+  margin: 20px 0; 
+}
+.Contact_input, .contact_text {
+  width: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+  outline: none;
+  resize: none;
+  border: none;
+  border-bottom: 1px rgb(155, 185, 168);
+}
+.contact_center {
+  text-align: center;
+}
+.Contact_input[type="submit"] {
+ margin-top: 30px;
+ width: 30%;
+ max-width:  200%;
+ border: 1px solid rgb(22, 22, 22);
+ font-size: 17px;
+ cursor: pointer;
+ border-radius: 15px;
+ color: white; background-color: #04AA6D;
+}                           
+.Contact_input[type="submit"]:hover{
+  border: 3px solid rgb(32, 213, 32);
+  background-color: black;
+  color: white;
 }
